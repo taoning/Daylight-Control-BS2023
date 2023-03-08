@@ -1,0 +1,4 @@
+void BRTDfunc CCC-Planitherm3
+10 sr_red sr_grn sr_blu st_red st_grn st_blu 0 0 0 glass3.cal
+0
+18 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.14 0.14 0.14 0.1379 0.1379 0.1379 0.6979 0.6979 0.6979

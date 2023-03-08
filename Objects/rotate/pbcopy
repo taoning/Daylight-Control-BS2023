@@ -1,0 +1,19 @@
+# gendaylit 6 21 12 -a 52 -o -4.38 -m -15 -W 800 100
+# Local solar time: 11.27
+# Solar altitude and azimuth: 60.2 -20.6
+# epsilon, delta, atmospheric precipitable water content : 7.9813 0.0870 2.0000 
+
+void light solar
+0
+0
+3 6.804e+06 6.804e+06 6.804e+06
+
+solar source sun
+0
+0
+4 0.174586 -0.464700 0.868086 0.533000
+
+void brightfunc skyfunc
+2 skybright perezlum.cal
+0
+10 3.397e+01 2.967e+01 -0.981687 -0.197124 22.020484 -5.830878 1.353221 0.174586 -0.464700 0.868086 

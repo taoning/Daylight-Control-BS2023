@@ -1,0 +1,12 @@
+planitherm3 polygon glazing
+0
+0
+12 
+    0       0   0 
+    1.47    0   0 
+    1.47    5.2   0
+    0       5.2   0
+
+    
+!genblinds matte_black blinds00 0.0785 1.47 5.1365549 74 20 +r 0.1133 | xform -rz -90 -rx -90 -t 0 0 -0.1
+

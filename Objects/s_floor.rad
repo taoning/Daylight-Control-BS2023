@@ -1,0 +1,14 @@
+# xform -rx 90 -rz -90
+# obj2rad -f s_floor.obj
+# Rhino
+
+CCC-Floor-Carpet polygon s_floor.1
+0
+0
+12
+      16.9762172699     -1.56746339798  1.19209280932e-08
+      16.9762172699     -24.4794635773  1.36531255898e-08
+      3.06421637535     -24.4794635773  1.36531264417e-08
+      3.06421637535     -1.56746339798  1.19209289451e-08
+# Done processing file: s_floor.obj
+# 18 lines, 17 statements, 1 unrecognized

@@ -1,0 +1,17 @@
+void plastic matte_black
+0
+0
+5 .05 .05 .05 0 0
+
+# Estimate a triple pane system
+void BRTDfunc planitherm3
+10
+    sr_red sr_grn sr_blu
+    st_red st_grn st_blu
+    0 0 0
+    glass3.cal
+0
+18 0 0 0 0 0 0 0 0 0 
+    .14 .14 .14
+    .1379 .1379 .1379
+    .6979 .6979 .6979
