@@ -1,0 +1,12 @@
+slats = []
+
+for i in range(13,21): 
+    df = pd.read_csv('Wouter/log-2022-03-%02d.csv' % i, sep='\t', index_col=0, parse_dates=True)
+    df1 = df.loc[:,['slat angle fac North','slat angle fac East','slat angle fac South','slat angle fac West']].copy()
+    df2 = df1[df1.index.minute==0].copy()
+    slats.append(df2)
+    
+slats = pd.concat(slats)
+slats = slats.resample('H').mean()
+slats = ((slats/10).apply(np.ceil)*10)
+slats.loc[:,:][np.isnan(slats.loc[:,:])] = -1
