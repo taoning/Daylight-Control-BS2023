@@ -1,0 +1,23 @@
+# /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyradiance/bin/xform -rz -22
+# /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyradiance/bin/gendaylit 3 18 8.0 -a 52.0 -o -4.36 -m -15 -W 476.0 62.0
+# Local solar time: 7.15
+# Solar altitude and azimuth: 9.2 -75.2
+# epsilon, delta, atmospheric precipitable water content : 2.9612 0.2696 2.0000 
+
+void light solar
+0
+0
+3            2534000            2534000            2534000
+
+solar source sun
+0
+0
+4     0.790793721987    -0.590619152384           0.160665              0.533
+
+void brightfunc skyfunc
+6 skybright perezlum.cal -i 1 -rz -22
+0
+10              18.43              3.746           -0.72723          -0.218959          13.533313          -3.245102           0.396101           0.954461          -0.251376           0.160665
+skyfunc glow sglow 0 0 4 1 1 1 0
+sglow source sky 0 0 4 0 0 1 180
+sglow source ground 0 0 4 0 0 -1 180
