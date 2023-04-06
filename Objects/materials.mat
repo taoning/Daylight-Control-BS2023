@@ -1,85 +1,120 @@
-void plastic CCC-Walls-Matteblackmaterial
+void plastic _p_CCC-Walls-Matteblackmaterial
 0
 0
-5 0.05 0.05 0.05 0.0 0.0
+5 0.08 0.08 0.08 0.0 0.0
 
-void plastic Context-Canal-Water
+void glass _p_CCC-Windows-Glass
 0
 0
-5 0.5 0.5 0.5 0.0 0.0
+3 0.741090496364548 0.741090496364548 0.741090496364548
 
-void plastic Context-Roofs-Satinblacksteel
-0
-0
-5 0.06 0.06 0.06 0.0 0.0
-
-void plastic Context-Ground
-0
-0
-5 0.2 0.2 0.2 0.0 0.0
-
-void glass CCC-Windows-Glass
-0
-0
-3 0.715 0.715 0.715
-
-void glass CCC-Fins-Glass
-0
-0
-3 0.715 0.715 0.715
-
-void glass CCC-Doors-Glass
-0
-0
-3 0.715 0.715 0.715
-
-void glass CCC-Skylights-Glass
-0
-0
-3 0.73 0.73 0.73
-
-void glass Context-Windows-Glass
-0
-0
-3 0.715 0.715 0.715
-
-void plastic Context-Walls-Darkwood
-0
-0
-5 0.15 0.15 0.15 0.0 0.0
-
-void plastic CCC-Floor-Carpet
+void plastic _p_CCC-Blinds-Matteblackmaterial
 0
 0
 5 0.04 0.04 0.04 0.0 0.0
 
-void plastic CCC-Ceiling-Timberacousticceiling
+void glass _p_CCC-Doors-Glass
 0
 0
-5 0.05 0.05 0.05 0.0 0.0
+3 0.8715383142692613 0.8715383142692613 0.8715383142692613
 
-# 5 0.1 0.1 0.1 0.0 0.0
-void plastic Context-Plants-Trees
+void plastic _p_CCC-Floor-Carpet
 0
 0
-5 0.0830 0.1108 0.0461 0.0012 0.2000
+5 0.3 0.3 0.3 0.0 0.0
 
-void plastic CCC-Blinds-Matteblackmaterial
+void plastic _p_CCC-Ceiling-Acousticceiling
 0
 0
-5 0.05 0.05 0.05 0.0 0.0
+5 0.3 0.3 0.3 0.0 0.0
 
-void plastic CCC-Frames-Matteblackmaterial
+void glass _p_CCC-Skylights-Glass
 0
 0
-5 0.05 0.05 0.05 0.0 0.0
+3 0.8715383142692613 0.8715383142692613 0.8715383142692613
 
-void plastic Context-Chimney-PVcells
+void plastic _p_CCC-Roof-Satinblacksteel
 0
 0
-5 0.06 0.06 0.06 0.0 0.0
+5 0.01 0.01 0.01 0.0 0.0
 
-void plastic CCC-Roof-Satinblacksteel
+void glass _p_CCC-Fins-Glass
 0
 0
-5 0.06 0.06 0.06 0.0 0.0
+3 0.741090496364548 0.741090496364548 0.741090496364548
+
+void plastic _p_CCC-Frames-Matteblackmaterial
+0
+0
+5 0.08 0.08 0.08 0.0 0.0
+
+void plastic _p_CCC-Sill-Metal
+0
+0
+5 0.5 0.5 0.5 0.0 0.0
+
+void plastic _p_Context-Walls-Darkwood
+0
+0
+5 0.04 0.04 0.04 0.0 0.0
+
+void plastic _p_Context-Walls-Lightwood
+0
+0
+5 0.08 0.08 0.08 0.0 0.0
+
+void glass _p_Context-Walls-Glass
+0
+0
+3 0.8715383142692613 0.8715383142692613 0.8715383142692613
+
+void plastic _p_Context-Roofs-Satinblacksteel
+0
+0
+5 0.01 0.01 0.01 0.0 0.0
+
+void plastic _p_Context-Chimney-Satinblacksteel 
+0
+0
+5 0.01 0.01 0.01 0.0 0.0
+
+
+void plastic _p_Context-RoofNonohouse-Greenroof
+0
+0
+5 0.2 0.2 0.2 0.0 0.0
+
+void plastic _p_Context-RoofNonohouse-Glass
+0
+0
+5 0.1 0.1 0.1 0.0 0.0
+
+void glass _p_Context-Roof-Glass
+0
+0
+3 0.8715383142692613 0.8715383142692613 0.8715383142692613
+
+void plastic _p_Context-Windows-Glass
+0
+0
+5 0.1 0.1 0.1 0.0 0.0
+
+void plastic _p_Context-Ground-Pavementsoil
+0
+0
+5 0.25 0.25 0.25 0.0 0.0
+
+void plastic _p_Context-Canal-Water
+0
+0
+5 0.3 0.3 0.3 0.0 0.0
+
+void glass _p_Context-Plants-Trees
+0
+0
+3 0.8715383142692613 0.8715383142692613 0.8715383142692613
+
+void plastic _p_Context-Chimney-SatinblacksteelPVcells
+0
+0
+5 0.01 0.01 0.01 0.0 0.0
