@@ -4,6 +4,7 @@ Evaluation of model-based control for daylight and visual comfort in a multi occ
 ## Optimization
 Make sure to make a `Matrices` directory if it doesn't exists.
 `python optimization`
+A `opt.csv` file will be generated
 
 ## Rule-based
 `python heuristic.py`

@@ -111,13 +111,9 @@ def main(w):
     return (w, x, objval)
 
 if __name__ == '__main__':
-    import time
     wea = [w for w in wea if w.time.hour >= 8 and w.time.hour <= 17]
     pool = mp.Pool(mp.cpu_count())
     result = pool.map(main, wea)
     df = pd.DataFrame([r[1] for r in result], columns=['south', 'east', 'west', 'north'])
     df.set_index((r[0].time for r in result), inplace=True)
-    df.to_csv('optctrl.csv')
-    # stime = time.perf_counter()
-    # main(wea[0])
-    # print(time.perf_counter() - stime)
+    df.to_csv('opt.csv')
