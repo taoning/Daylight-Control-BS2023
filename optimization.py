@@ -34,57 +34,14 @@ bsdf = [fr.load_matrix(f"Resources/glazings/0blinds.xml")]
 for i in range(1, 10):
     bsdf.append(fr.load_matrix(f"Resources/BSDF/blinds{(i-1)*10:02d}.xml"))
 
+# Room octree
 room_ot = "scene.oct"
 
-sblinds = [
-    None,
-    'Objects/sblinds00.rad',
-    'Objects/sblinds10.rad',
-    'Objects/sblinds20.rad',
-    'Objects/sblinds30.rad',
-    'Objects/sblinds40.rad',
-    'Objects/sblinds50.rad',
-    'Objects/sblinds60.rad',
-    'Objects/sblinds70.rad',
-    'Objects/sblinds80.rad',
-]
-eblinds = [
-    None,
-    'Objects/eblinds00.rad',
-    'Objects/eblinds10.rad',
-    'Objects/eblinds20.rad',
-    'Objects/eblinds30.rad',
-    'Objects/eblinds40.rad',
-    'Objects/eblinds50.rad',
-    'Objects/eblinds60.rad',
-    'Objects/eblinds70.rad',
-    'Objects/eblinds80.rad',
-]
-wblinds = [
-    None,
-    'Objects/wblinds00.rad',
-    'Objects/wblinds10.rad',
-    'Objects/wblinds20.rad',
-    'Objects/wblinds30.rad',
-    'Objects/wblinds40.rad',
-    'Objects/wblinds50.rad',
-    'Objects/wblinds60.rad',
-    'Objects/wblinds70.rad',
-    'Objects/wblinds80.rad',
-]
-nblinds = [
-    None,
-    'Objects/nblinds00.rad',
-    'Objects/nblinds10.rad',
-    'Objects/nblinds20.rad',
-    'Objects/nblinds30.rad',
-    'Objects/nblinds40.rad',
-    'Objects/nblinds50.rad',
-    'Objects/nblinds60.rad',
-    'Objects/nblinds70.rad',
-    'Objects/nblinds80.rad',
-]
-
+# Blinds geometry file paths
+sblinds = [None, *(f"Objects/sblinds{d*10:02d}.rad" for d in range(9))]
+eblinds = [None, *(f"Objects/eblinds{d*10:02d}.rad" for d in range(9))]
+wblinds = [None, *(f"Objects/wblinds{d*10:02d}.rad" for d in range(9))]
+nblinds = [None, *(f"Objects/nblinds{d*10:02d}.rad" for d in range(9))]
 
 # ## Loop through the weather file and implement control
 epw_path = "Resources/Delft-2022.wea"
