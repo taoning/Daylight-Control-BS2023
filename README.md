@@ -1,5 +1,5 @@
 # Daylight-Control-BS2023
-Evaluation of model-based control for daylight and visual comfort in a multi occupancy event space
+Evaluation of blinds control techniques for daylight and visual comfort in complex real-world conditions
 
 ## Optimization
 Make sure to make a `Matrices` directory if it doesn't exists.
